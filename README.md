@@ -9,12 +9,9 @@ TwoCents is an anonymous social network where users' usernames are their net wor
 ## Screenshots
 
 ### Demo Video
-<video width="800" controls>
-  <source src="screenshots/demo.mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo Video](screenshots/demo.gif)
 
-**📹 [Download Demo Video](screenshots/demo.mp4)** (if video doesn't play above)
+**📹 [Download Demo Video](screenshots/demo.mp4)** (MP4 version for download)
 
 ### Leaderboard View
 ![Leaderboard](screenshots/Leaderboard.png)
