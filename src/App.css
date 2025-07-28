@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Custom line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for light theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Net Worth Tier Gradients */
+.tier-bronze {
+  background: linear-gradient(135deg, #cd7f32, #a0522d);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tier-silver {
+  background: linear-gradient(135deg, #c0c0c0, #808080);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tier-gold {
+  background: linear-gradient(135deg, #ffd700, #daa520);
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.tier-basic {
+  background: linear-gradient(135deg, #6b7280, #4b5563);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
